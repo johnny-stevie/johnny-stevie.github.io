@@ -1,0 +1,32 @@
+img {
+  width: 100%;
+  height: 100%;
+}
+.frame {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+.chip {
+  display: inline-block;
+  padding: 0 15px;
+  height: 50px;
+  font-size: 16px;
+  line-height: 50px;
+  border-radius: 15px;
+  background-color: #eeeee4;
+}
+
+.closebtn {
+  padding-left: 10px;
+  color: #888;
+  font-weight: bold;
+  float: right;
+  font-size: 20px;
+}
+
+.group-skills .chip {
+  display: inline-block;
+}
