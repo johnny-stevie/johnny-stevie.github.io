@@ -1,1 +1,12 @@
+.project-row {
+  display: flex;
+}
 
+.project-item {
+  flex: 1;
+}
+
+.project-title {
+  white-space: initial;
+  color: white;
+}

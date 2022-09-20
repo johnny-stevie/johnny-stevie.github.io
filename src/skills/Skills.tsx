@@ -15,6 +15,7 @@ export function Skills() {
     "MongoDB",
     "React",
     "Golang",
+    "Unity2D",
   ];
   return (
     <div>
