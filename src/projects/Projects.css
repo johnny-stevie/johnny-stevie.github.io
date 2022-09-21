@@ -9,4 +9,30 @@
 .project-title {
   white-space: initial;
   color: white;
+  margin-left: 5px;
+}
+
+.project-chip {
+  display: inline-block;
+  margin-right: 5px;
+  margin-bottom: 5px;
+  padding: 0 15px;
+  height: 50px;
+  font-size: 16px;
+  line-height: 50px;
+  border-radius: 15px;
+  background-color: #59648f;
+}
+
+.project-closebtn {
+  padding-left: 10px;
+  color: #888;
+  font-weight: bold;
+  float: right;
+  font-size: 20px;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
 }

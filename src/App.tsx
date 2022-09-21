@@ -5,6 +5,7 @@ import photoOfMe from "./imgs/me.jpg";
 import { Toolbar } from "./toolbar/Toolbar";
 import { Skills } from "./skills/Skills";
 import { Projects } from "./projects/Projects";
+import { Contact } from "./contact/Contact";
 function App() {
   const { t } = useTranslation();
   return (
@@ -28,6 +29,10 @@ function App() {
 
         <div className="projects-section section">
           <Projects />
+        </div>
+
+        <div className="center contact-section">
+          <Contact />
         </div>
       </div>
     </div>

@@ -6,39 +6,55 @@ import northumberlandChess from "../imgs/northumberlandchess.png";
 import leoAllan from "../imgs/leoallan.png";
 
 import moominGame from "../imgs/moomingame.gif";
+import quickSong from "../imgs/quicksong.jpg";
+
 export function Projects() {
   const { t } = useTranslation();
-
+  const chipTitles = [
+    ["React", "TS", "Golang", "Google Drive API"],
+    ["React", "TS", "Golang", "Google Drive API"],
+    ["Unity2D", "Desktop"],
+    ["Flutter", "Dart", "Android"],
+  ];
   const rows = [
     [
-      `Northumberland Chess Association Website.`,
-      `A local chess association wanted me to redesign their site to attract 
-      more visitors to read about the chess news in the region`,
+      t("project-items.northumberlandchess-title"),
+      t("project-items.northumberlandchess-bio"),
+
       northumberlandChess,
     ],
     [
-      `LeoAllan Portfolio site`,
-      `A local photographer and videographer wanted a website
-       to display all his artistic work`,
+      t("project-items.leoallan-title"),
+      t("project-items.leoallan-bio"),
       leoAllan,
     ],
     [
-      `Moomin Game`,
-      `A game based on the Finnish Moomin series where Moomintroll has to find a lost friend`,
+      t("project-items.moomingame-title"),
+      t("project-items.moomingame-bio"),
       moominGame,
     ],
+    ["QuickSong", t("project-items.quicksong-bio"), quickSong],
   ];
   return (
-    <div>
-      <div id="projects-title">{t("projects")}:</div>
+    <>
+      <div className="project-title">{t("projects")}:</div>
       <br />
-      {rows.map(([title, bio, src]) => {
+      {rows.map(([title, bio, src], i) => {
         return (
-          <div>
+          <div key={i.toString()}>
             <div className="project-row">
               <div className="project-item project-title">
                 <p>{title}</p>
+
                 <p>{bio}</p>
+                {chipTitles[i].map((chipTitle, j) => {
+                  return (
+                    <div key={j.toString()} className="project-chip">
+                      {chipTitle}
+                      <span className="project-closebtn">&times;</span>
+                    </div>
+                  );
+                })}
               </div>
               <div className="project-item">
                 <img src={src} alt="" />
@@ -48,6 +64,6 @@ export function Projects() {
           </div>
         );
       })}
-    </div>
+    </>
   );
 }

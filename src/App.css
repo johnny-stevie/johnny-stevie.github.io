@@ -3,6 +3,10 @@
 }
 .projects-section {
   background-color: #0e1b3d;
+  height: 100%;
+  width: 100%;
+  /* left: 0;
+  top: 0; */
 }
 
 /* .page {
