@@ -5,12 +5,38 @@ import App from "./App";
 import reportWebVitals from "./reportWebVitals";
 
 import "./i18n";
+import ReactFullpage from "@fullpage/react-fullpage";
+import { Toolbar } from "./toolbar/Toolbar";
+
+interface IFullpageProps {
+  children: JSX.Element;
+}
+
+const Fullpage = ({ children }: IFullpageProps) => {
+  return (
+    <ReactFullpage
+      // scrollingSpeed={10}
+
+      scrollHorizontally /* Because we are using the extension */
+      keyboardScrolling
+      licenseKey={""}
+      render={() => {
+        return <ReactFullpage.Wrapper>{children}</ReactFullpage.Wrapper>;
+      }}
+    />
+  );
+};
+
 const root = ReactDOM.createRoot(
   document.getElementById("root") as HTMLElement
 );
 root.render(
   <React.StrictMode>
     <Suspense fallback={<div>Loading...</div>}>
+      <div>
+        <Toolbar />
+      </div>
+      {/* <Fullpage children={<App />} /> */}
       <App />
     </Suspense>
   </React.StrictMode>

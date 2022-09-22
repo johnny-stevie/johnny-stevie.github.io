@@ -1,6 +1,7 @@
 import React from "react";
 import { useTranslation } from "react-i18next";
 import { CV_HREF } from "../constants";
+import { HoverableButton } from "../custom_ui/Button";
 import "./Skills.css";
 export function Skills() {
   const { t } = useTranslation();
@@ -31,9 +32,9 @@ export function Skills() {
         })}
       </div>
       <br />
-      <a href={CV_HREF} target="_blank" rel="noreferrer">
+      <HoverableButton onClick={() => window.open(CV_HREF, "_blank")?.focus()}>
         {t("my-cv")}
-      </a>
+      </HoverableButton>
     </div>
   );
 }

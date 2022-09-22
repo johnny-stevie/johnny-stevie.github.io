@@ -24,6 +24,16 @@
   background-color: #59648f;
 }
 
+.pop-out-img {
+  transition: transform 0.5s;
+  opacity: 1;
+}
+.pop-out-img:hover {
+  transform: scale(1.1);
+  /* animation-name: fadeInUp; */
+  transition: all 0.4s ease-in-out;
+}
+
 .project-closebtn {
   padding-left: 10px;
   color: #888;
@@ -32,7 +42,34 @@
   font-size: 20px;
 }
 
-img {
-  max-width: 100%;
+.project-item .regular {
+  /* width: 100%; */
+  /* display: inline-block; */
+  /* object-fit: fill; */
+  /* object-fit: cover; */
   height: auto;
+  /* border-radius: 10px; */
+  border-style: solid;
+}
+
+.project-item .extra-tall {
+  aspect-ratio: 2;
+  border: none;
+}
+
+.project-item {
+  margin-right: 1%;
+}
+
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    -webkit-transform: translate3d(0, 15%, 0);
+    transform: translate3d(0, 15%, 0);
+  }
+  to {
+    opacity: 1;
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+  }
 }
