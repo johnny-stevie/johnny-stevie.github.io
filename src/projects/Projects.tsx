@@ -64,7 +64,7 @@ export function Projects() {
                   return (
                     <div key={j.toString()} className="project-chip">
                       {chipTitle}
-                      <span className="project-closebtn">&times;</span>
+                      {/* <span className="project-closebtn">&times;</span> */}
                     </div>
                   );
                 })}
@@ -73,7 +73,7 @@ export function Projects() {
                 {i < projectLinks.length ? (
                   <img
                     src={src}
-                    className="pop-out-img"
+                    className="pop-out-img regular"
                     onClick={() => {
                       window.open(projectLinks[i], "_blank")?.focus();
                     }}

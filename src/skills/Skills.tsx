@@ -26,7 +26,7 @@ export function Skills() {
           return (
             <div key={i.toString()} className="chip">
               {skill}
-              <span className="closebtn">&times;</span>
+              {/* <span className="closebtn">&times;</span> */}
             </div>
           );
         })}

@@ -17,3 +17,40 @@
   /* animation: dropdown-transition 300ms ease-in-out forwards; */
   display: block;
 }
+
+@keyframes slideInFromLeft {
+  0% {
+    transform: translateX(-100%);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+
+.toolbar {
+  background: #333;
+
+  animation: 1s ease-out 0s 1 slideInFromLeft;
+}
+
+@media screen and (min-width: 600px) {
+  .toolbar {
+    padding: 1.5vh 2.5vh 2vh 2vh;
+
+    margin-bottom: -7%;
+  }
+}
+@media screen and (max-width: 600px) {
+  .toolbar {
+    /*top | right | bottom | left*/
+    padding: 1.5vh 2.5vh 2vh 2vh;
+    margin-bottom: -7%;
+  }
+}
+
+.toolbar-link {
+  text-decoration: none;
+  display: inline-block;
+  margin-right: 10px;
+  color: #fff;
+}

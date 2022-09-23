@@ -1,0 +1,11 @@
+.footer {
+  background-color: black;
+  color: white;
+  padding: 2vh 0 2vh 0;
+}
+
+@media screen and (max-width: 600px) {
+  .footer {
+    margin-bottom: -5vh;
+  }
+}

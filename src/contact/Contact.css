@@ -1,0 +1,39 @@
+@media screen and (max-width: 600px) {
+  .social-media-links a {
+    margin-right: 10%;
+  }
+}
+@media screen and (min-width: 600px) {
+  .social-media-links a {
+    margin-right: 2%;
+  }
+}
+
+.social-media-links {
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
+
+.social-media-links a {
+  padding: 10px;
+  font-size: 30px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50%;
+  display: block;
+}
+
+.social-media-links a:hover {
+  opacity: 0.7;
+}
+
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
+.fa-github {
+  background: black;
+  color: white;
+}

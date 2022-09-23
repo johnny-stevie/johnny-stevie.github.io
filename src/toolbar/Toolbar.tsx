@@ -6,8 +6,8 @@ export function Toolbar() {
 
   const changeLanguage = (lang: string) => i18n.changeLanguage(lang);
   return (
-    <div>
-      <div className="dropdown">
+    <div className="toolbar">
+      <div className="toolbar-link dropdown">
         {t("lang-option")}
         <div className="dropdown-content">
           <button onClick={() => changeLanguage("en")}>EN</button>
