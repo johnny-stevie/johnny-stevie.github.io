@@ -1,0 +1,20 @@
+{
+  "title": "Hi, I'm John",
+  "skills": "Skills",
+  "lang-option": "Language",
+  "picture-of-me": "Picture of me",
+  "my-cv": "My CV",
+  "projects": "Projects",
+  "project-items": {
+    "northumberlandchess-title": "Northumberland Chess Association Website",
+    "northumberlandchess-bio": "A local chess association wanted me to redesign their site to attract more visitors to read about the chess news in the region",
+    "leoallan-title": "Leo Allan Portfolio site",
+    "leoallan-bio": "A local photographer and videographer wanted a website to display all his artistic work",
+    "moomingame-title": "Moomin Game",
+    "moomingame-bio": "A game based on the Finnish Moomin series where Moomintroll has to find a lost friend",
+    "quicksong-bio": "A music playing app to allow users to play music offline and online"
+  },
+
+  "contact-me-via": "Contact me via",
+  "email": "email"
+}

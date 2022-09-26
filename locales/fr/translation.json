@@ -1,0 +1,19 @@
+{
+  "title": "Bonjour, c'est John",
+  "skills": "Compétences",
+  "lang-option": "Langues",
+  "picture-of-me": "Un photo de moi",
+  "my-cv": "Mon résumé",
+  "projects": "Projets",
+  "project-items": {
+    "northumberlandchess-title": "Site web de l'association d'échecs de Northumberland",
+    "northumberlandchess-bio": "Une association locale d'échecs m'a demandé de redessiner son site afin d'attirer plus de visiteurs pour lire l'actualité échiquéenne de la région",
+    "leoallan-title": "Site du portfolio Leo Allan",
+    "leoallan-bio": "Un photographe et vidéaste local souhaitait un site web pour présenter l'ensemble de son travail artistique",
+    "moomingame-title": "Jeu vidéo Moomin",
+    "moomingame-bio": "Un jeu basé sur la série finlandaise Moomin dans lequel Moomintroll doit retrouver un ami perdu",
+    "quicksong-bio": "Une application de lecture de musique permettant aux utilisateurs d'écouter de la musique hors ligne et en ligne"
+  },
+  "contact-me-via": "Contactez-moi via",
+  "email": "e-mail"
+}
