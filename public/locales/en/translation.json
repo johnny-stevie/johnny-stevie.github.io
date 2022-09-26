@@ -1,7 +1,13 @@
 {
   "title": "Hi, I'm John",
+  "about-me": "I'm an undergraduate studying Computer Science BSc at Durham University. I have 4 years of developing experience from web to mobile and even to desktop.",
   "skills": "Skills",
-  "lang-option": "Language",
+  "options": {
+    "lang-option": "Language",
+    "about-option": "About",
+    "projects-option": "Projects",
+    "contact-option": "Contacts"
+  },
   "picture-of-me": "Picture of me",
   "my-cv": "My CV",
   "projects": "Projects",

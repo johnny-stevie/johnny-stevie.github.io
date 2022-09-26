@@ -62,10 +62,18 @@
 .toolbar-link {
   text-decoration: none;
   display: inline-block;
-  margin-right: 10px;
+  margin-right: 5%;
   color: #fff;
 }
 
 .toolbar-text {
   font-size: 3vw;
+}
+
+.toolbar-text,
+.toolbar-text:visited,
+.toolbar-text:hover,
+.toolbar-text:active {
+  color: inherit;
+  text-decoration: none;
 }

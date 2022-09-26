@@ -37,9 +37,9 @@ function App() {
     <div>
       {/** main page */}
       <div className="page">
-        <div className="center about-me-section">
+        <div id="about" className="center about-me-section">
           <h1 className="greeting">{t("title")}</h1>
-          <br />
+
           <div className="about-row">
             <div className="frame">
               <img
@@ -49,16 +49,20 @@ function App() {
               />
             </div>
             <br />
-            <Skills />
+            <div className="about-profile-section">
+              <div className="about-text">{t("about-me")}</div>
+              <br />
+              <Skills />
+            </div>
           </div>
           <br />
         </div>
 
-        <div className="projects-section">
+        <div id="projects" className="projects-section">
           <Projects />
         </div>
 
-        <div className="center contact-section">
+        <div id="contact" className="center contact-section">
           <Contact />
         </div>
       </div>

@@ -1,7 +1,13 @@
 {
   "title": "Bonjour, c'est John",
   "skills": "Compétences",
-  "lang-option": "Langues",
+  "about-me": "Je suis étudiant en licence d'informatique à l'université de Durham. J'ai 4 ans d'expérience en développement, du web au mobile et même sur ordinateur.",
+  "options": {
+    "lang-option": "Langues",
+    "about-option": "Sur le site",
+    "projects-option": "Projets",
+    "contact-option": "Contacter"
+  },
   "picture-of-me": "Un photo de moi",
   "my-cv": "Mon résumé",
   "projects": "Projets",
