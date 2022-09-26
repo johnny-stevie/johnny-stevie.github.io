@@ -11,6 +11,7 @@
   cursor: pointer;
   -webkit-transition-duration: 0.4s; /* Safari */
   transition-duration: 0.4s;
+  font-family: inherit;
 }
 
 .hoverable-btn:hover {

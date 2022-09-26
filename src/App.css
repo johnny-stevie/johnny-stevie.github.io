@@ -17,7 +17,7 @@
 
 @media (prefers-reduced-motion: no-preference) {
   .projects-section-animation {
-    animation: 0.5s ease-in-out slideInFromBelow;
+    animation: 1s ease-in-out slideInFromBelow;
   }
 }
 
@@ -29,22 +29,38 @@
     transform: translateX(0);
   }
 }
+
 .about-me-section {
   background-color: #9ee0ce;
 
   animation: 1s ease-out 0s 1 slideInFromRight;
 }
 
+@media screen and (min-width: 900px) {
+  .about-row {
+    display: flex;
+    flex: 1;
+    margin-left: 3%;
+    margin-bottom: 5%;
+  }
+}
+
+/* @media screen and (min-width: 600px) {
+  .about-me-section {
+    margin-bottom: -3.7vh;
+  }
+}
+
 @media screen and (max-width: 600px) {
   .about-me-section {
-    margin-bottom: -2vh;
+    margin-bottom: -3.8vh;
   }
+} */
+/* @media screen and (max-width: 400px) { */
+.about-me-section {
+  margin-bottom: -3.8vh;
 }
-@media screen and (min-width: 600px) {
-  .about-me-section {
-    margin-bottom: -2.5%;
-  }
-}
+/* } */
 
 @keyframes slideInFromZ {
   0% {
@@ -57,14 +73,16 @@
 
 @media (prefers-reduced-motion: no-preference) {
   .contact-animation-section {
-    animation: 0.5s ease-in-out slideInFromZ;
+    animation: 1s ease-in-out slideInFromZ;
   }
 }
 
 .greeting {
-  font-size: 10vw;
+  font-size: 15vw;
 }
 
 .profile-pic {
+  width: 100%;
+  /* aspect-ratio: 0.9; */
   border-radius: 50%;
 }

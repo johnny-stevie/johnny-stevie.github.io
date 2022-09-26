@@ -33,24 +33,39 @@
   animation: 1s ease-out 0s 1 slideInFromLeft;
 }
 
-@media screen and (min-width: 600px) {
+/* @media screen and (min-width: 900px) {
   .toolbar {
-    padding: 1.5vh 2.5vh 2vh 2vh;
+    
 
-    margin-bottom: -7%;
+    padding: 1.5vh 2.5vh 0 2vh !important;
+
+    margin-bottom: -11%;
   }
 }
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 900px) {
   .toolbar {
-    /*top | right | bottom | left*/
-    padding: 1.5vh 2.5vh 2vh 2vh;
-    margin-bottom: -7%;
+
+    padding: 1.5vh 2.5vh 0 2vh; 
+
+    margin-bottom: -11%;
   }
 }
+*/
+/* @media screen and (max-width: 600px) { */
+.toolbar {
+  /*top | right | bottom | left*/
+  padding: 1.5vh 2.5vh 0 2vh;
+  margin-bottom: -11%;
+}
+/* } */
 
 .toolbar-link {
   text-decoration: none;
   display: inline-block;
   margin-right: 10px;
   color: #fff;
+}
+
+.toolbar-text {
+  font-size: 3vw;
 }

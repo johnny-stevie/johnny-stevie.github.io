@@ -50,7 +50,7 @@ export function Projects() {
   ];
   return (
     <>
-      <h1 className="section project-title">{t("projects")}:</h1>
+      <h1 className="section project-title">{t("projects")}</h1>
       <br />
       {rows.map(([title, bio, src], i) => {
         return (

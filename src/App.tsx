@@ -1,11 +1,12 @@
 import React, { useEffect } from "react";
 import "./App.css";
 import { useTranslation } from "react-i18next";
-import photoOfMe from "./imgs/me.jpg";
+import photoOfMe from "./imgs/me_2.jpg";
 import { Skills } from "./skills/Skills";
 import { Projects } from "./projects/Projects";
 import { Contact } from "./contact/Contact";
 import { Footer } from "./footer/Footer";
+
 function App() {
   const { t } = useTranslation();
 
@@ -39,15 +40,17 @@ function App() {
         <div className="center about-me-section">
           <h1 className="greeting">{t("title")}</h1>
           <br />
-          <div className="frame">
-            <img
-              className="profile-pic"
-              src={photoOfMe}
-              alt={t("picture-of-me")}
-            />
+          <div className="about-row">
+            <div className="frame">
+              <img
+                className="profile-pic"
+                src={photoOfMe}
+                alt={t("picture-of-me")}
+              />
+            </div>
+            <br />
+            <Skills />
           </div>
-          <br />
-          <Skills />
           <br />
         </div>
 

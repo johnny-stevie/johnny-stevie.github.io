@@ -8,7 +8,7 @@ export function Toolbar() {
   return (
     <div className="toolbar">
       <div className="toolbar-link dropdown">
-        {t("lang-option")}
+        <p className="toolbar-text">{t("lang-option")}</p>
         <div className="dropdown-content">
           <button onClick={() => changeLanguage("en")}>EN</button>
           <button onClick={() => changeLanguage("fr")}>FR</button>
