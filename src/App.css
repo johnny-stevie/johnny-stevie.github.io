@@ -39,6 +39,10 @@
 .about-text {
   font-size: 3vh;
   font-weight: bold;
+  /* flex-wrap: wrap; */
+  /* justify-content: space-between; */
+  margin-right: 1%;
+  margin-left: 1%;
 }
 
 @media screen and (min-width: 1300px) {
@@ -84,10 +88,10 @@
 
 .greeting {
   font-size: 15vw;
+  margin-bottom: 0;
 }
 
 .profile-pic {
   width: 100%;
-  /* aspect-ratio: 0.9; */
   border-radius: 50%;
 }

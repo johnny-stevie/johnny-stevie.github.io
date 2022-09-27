@@ -22,12 +22,14 @@
   line-height: 50px;
   border-radius: 15px;
   background-color: #59648f;
+  text-overflow: inherit;
 }
 
 .pop-out-img {
   transition: transform 0.5s;
   opacity: 1;
 }
+
 .pop-out-img:hover {
   transform: scale(1.1);
   /* animation-name: fadeInUp; */
@@ -46,18 +48,32 @@
   /* width: 100%; */
   /* display: inline-block; */
   /* object-fit: fill; */
-  object-fit: cover;
+  object-fit: scale-down;
   /* height: 100%; */
   /* aspect-ratio: 16/9; */
   /* aspect-ratio: 3; */
   /* border-radius: 10px; */
-  border-style: solid;
+
+  /* border-style: solid; */
 }
 
-.project-item .extra-tall {
-  /* aspect-ratio: 0.5; */
-  /* border: none; */
-  object-fit: scale-down;
+@media screen and (max-width: 600px) {
+  .project-item .extra-tall {
+    /* aspect-ratio: 0.5; */
+    /* border: none; */
+    width: 100%;
+    height: auto;
+    /* object-fit: cover; */
+  }
+}
+@media screen and (min-width: 600px) {
+  .project-item .extra-tall {
+    /* aspect-ratio: 0.5; */
+    /* border: none; */
+    width: 50%;
+    height: auto;
+    /* object-fit: cover; */
+  }
 }
 
 .project-item {

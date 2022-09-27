@@ -38,8 +38,9 @@ function App() {
       {/** main page */}
       <div className="page">
         <div id="about" className="center about-me-section">
-          <h1 className="greeting">{t("title")}</h1>
-
+          <div>
+            <h1 className="greeting">{t("title")}</h1>
+          </div>
           <div className="about-row">
             <div className="frame">
               <img
