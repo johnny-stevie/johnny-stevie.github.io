@@ -1,18 +1,30 @@
 {
   "title": "Bonjour, c'est John",
   "skills": "Compétences",
-  "lang-option": "Langues",
+  "about-me": "Je suis étudiant en licence d'informatique à l'université de Durham. J'ai 4 ans d'expérience en développement, du web au mobile et même sur ordinateur.",
+  "options": {
+    "lang-option": "Langues",
+    "about-option": "Sur le site",
+    "projects-option": "Projets",
+    "contact-option": "Contacter"
+  },
   "picture-of-me": "Un photo de moi",
   "my-cv": "Mon résumé",
+  "more": "Plus de livrer",
+  "less": "Moins",
   "projects": "Projets",
   "project-items": {
     "northumberlandchess-title": "Site web de l'association d'échecs de Northumberland",
     "northumberlandchess-bio": "Une association locale d'échecs m'a demandé de redessiner son site afin d'attirer plus de visiteurs pour lire l'actualité échiquéenne de la région",
+    "northumberlandchess-more": "J'ai utilisé React JS avec Typescript sur le client et j'ai utilisé Golang sur le serveur pour interagir avec l'API Google Drive.",
     "leoallan-title": "Site du portfolio Leo Allan",
     "leoallan-bio": "Un photographe et vidéaste local souhaitait un site web pour présenter l'ensemble de son travail artistique",
+    "leoallan-more": "Même pile technologique que le site de l'Association des échecs de Northumberland",
     "moomingame-title": "Jeu vidéo Moomin",
     "moomingame-bio": "Un jeu basé sur la série finlandaise Moomin dans lequel Moomintroll doit retrouver un ami perdu",
-    "quicksong-bio": "Une application de lecture de musique permettant aux utilisateurs d'écouter de la musique hors ligne et en ligne"
+    "moomingame-more": "Le jeu a été construit en utilisant le moteur de jeu Unity en 2D. J'ai appris à écrire des scripts C#, à gérer les collisions, à créer des animations et à utiliser des objets de jeu.",
+    "quicksong-bio": "Une application de lecture de musique permettant aux utilisateurs d'écouter de la musique hors ligne et en ligne",
+    "quicksong-more": "L'application a été réalisée avec Flutter sur le mobile et le serveur a exécuté Django pour créer des recommandations et gérer l'authentification."
   },
   "contact-me-via": "Contactez-moi via",
   "email": "e-mail"

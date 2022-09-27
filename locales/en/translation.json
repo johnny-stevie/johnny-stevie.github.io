@@ -1,18 +1,31 @@
 {
   "title": "Hi, I'm John",
+  "about-me": "I'm an undergraduate studying Computer Science BSc at Durham University. I have 4 years of developing experience ranging from web to mobile and even to desktop.",
   "skills": "Skills",
-  "lang-option": "Language",
+  "more": "More",
+  "less": "Less",
+  "options": {
+    "lang-option": "Language",
+    "about-option": "About",
+    "projects-option": "Projects",
+    "contact-option": "Contacts"
+  },
   "picture-of-me": "Picture of me",
   "my-cv": "My CV",
   "projects": "Projects",
   "project-items": {
     "northumberlandchess-title": "Northumberland Chess Association Website",
     "northumberlandchess-bio": "A local chess association wanted me to redesign their site to attract more visitors to read about the chess news in the region",
+    "northumberlandchess-more": "I used React JS with Typescript on the client and I used Golang on the server to interact with the Google Drive API",
     "leoallan-title": "Leo Allan Portfolio site",
     "leoallan-bio": "A local photographer and videographer wanted a website to display all his artistic work",
+    "leoallan-more": "Same tech stack as Northumberland Chess Association website",
     "moomingame-title": "Moomin Game",
     "moomingame-bio": "A game based on the Finnish Moomin series where Moomintroll has to find a lost friend",
-    "quicksong-bio": "A music playing app to allow users to play music offline and online"
+    "moomingame-more": "The game was built using the Unity game engine in 2D. I learnt how to write C# scripts, handle collisions, make animations and use game objects.",
+
+    "quicksong-bio": "A music playing app to allow users to play music offline and online",
+    "quicksong-more": "The app was made with Flutter on the mobile and the server ran Django to create recommendations and handle authentication."
   },
 
   "contact-me-via": "Contact me via",

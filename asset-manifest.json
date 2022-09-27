@@ -1,21 +1,21 @@
 {
   "files": {
-    "main.css": "/static/css/main.2e66f619.css",
-    "main.js": "/static/js/main.dc15f18c.js",
+    "main.css": "/static/css/main.4ef962f5.css",
+    "main.js": "/static/js/main.b9435c09.js",
     "static/js/787.e9f56698.chunk.js": "/static/js/787.e9f56698.chunk.js",
     "static/media/moomingame.gif": "/static/media/moomingame.d71f74d8cedc61f3b6c6.gif",
     "static/media/leoallan.png": "/static/media/leoallan.94a3d47a3c7e48298aac.png",
-    "static/media/quicksong.jpg": "/static/media/quicksong.94d28f4b02ea01947583.jpg",
     "static/media/me_2.jpg": "/static/media/me_2.c9f15cdfdac0c8dedbd9.jpg",
     "static/media/northumberlandchess.png": "/static/media/northumberlandchess.c077b43a23bfcd3855f5.png",
+    "static/media/quicksong_4.jpg": "/static/media/quicksong_4.b006f53c651ad17bc96a.jpg",
     "index.html": "/index.html",
     "static/media/getFetch.cjs": "/static/media/getFetch.c780682470504fffbd04.cjs",
-    "main.2e66f619.css.map": "/static/css/main.2e66f619.css.map",
-    "main.dc15f18c.js.map": "/static/js/main.dc15f18c.js.map",
+    "main.4ef962f5.css.map": "/static/css/main.4ef962f5.css.map",
+    "main.b9435c09.js.map": "/static/js/main.b9435c09.js.map",
     "787.e9f56698.chunk.js.map": "/static/js/787.e9f56698.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.2e66f619.css",
-    "static/js/main.dc15f18c.js"
+    "static/css/main.4ef962f5.css",
+    "static/js/main.b9435c09.js"
   ]
 }
