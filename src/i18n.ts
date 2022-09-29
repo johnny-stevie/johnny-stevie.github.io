@@ -9,7 +9,7 @@ i18n
   .use(initReactI18next)
   .init({
     fallbackLng: "en",
-    supportedLngs: ["en", "fr"],
+    supportedLngs: ["en", "fr", "es", "de", "ru", "zh"],
     debug: !process.env.NODE_ENV || process.env.NODE_ENV === "development",
     detection: {
       order: ["querystring", "cookie"],

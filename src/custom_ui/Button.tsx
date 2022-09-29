@@ -13,3 +13,11 @@ export function HoverableButton(
 ) {
   return <button className="button hoverable-btn" {...props}></button>;
 }
+
+export function ATagButton({
+  className: passedClasses,
+  ...props
+}: React.ButtonHTMLAttributes<HTMLButtonElement>) {
+  // props.className = undefined;
+  return <button className={`a-tag-btn ${passedClasses}`} {...props}></button>;
+}
