@@ -1,0 +1,34 @@
+{
+  "title": "Hallo, ich bin Johannes",
+  "about-me": "Ich studiere Informatik im 2. Studienjahr an der Durham University. Ich habe 4 Jahre Erfahrung in der Entwicklung von Web zu Mobile und sogar zu Desktop.",
+  "skills": "F\u00e4higkeiten",
+  "more": "Mehr",
+  "less": "Weniger",
+  "options": {
+    "lang-option": "Sprache",
+    "about-option": "Um",
+    "projects-option": "Projekte",
+    "contact-option": "Kontakte"
+  },
+  "picture-of-me": "Bild von mir",
+  "my-cv": "Mein Lebenslauf",
+  "projects": "Projekte",
+  "project-items": {
+    "northumberlandchess-title": "Website der Northumberland Chess Association",
+    "northumberlandchess-bio": "Die Northumberland Chess Association wollte, dass ich ihre Website neu gestalte, um mehr Besucher anzuziehen, um \u00fcber Schachnachrichten in der Region zu lesen",
+    "northumberlandchess-more": "Der in React Typescript geschriebene Client fordert den Golang-Server auf, mit der Google Drive-API zu interagieren, um die HTML-Dateien abzurufen, die die Posts enthalten. Die Authentifizierung beginnt mit der Anmeldung mit einem Google-Konto und dann wird ein JWT vom Server gesendet. Dies wird alle 15 Minuten aktualisiert, um eine dauerhafte Sitzung zu erreichen.",
+    "leoallan-title": "Leo Allan Portfolio-Website",
+    "leoallan-bio": "Ein in Newcastle ans\u00e4ssiger Fotograf und Videograf, Leo Allan, wollte eine Website, auf der all seine k\u00fcnstlerischen Arbeiten gezeigt werden",
+    "leoallan-more": "Der React Typescript-Client sendet Anfragen an den Golang-Server, um die IDs der Fotos/Videos \u00fcber die Google Drive-API abzurufen. Die Authentifizierung umfasst die Anmeldung \u00fcber ein Google-Anmeldeportal und den anschlie\u00dfenden Empfang eines JWT, um eine dauerhafte Sitzung aufrechtzuerhalten.",
+    "moomingame-title": "Mumin-Spiel",
+    "moomingame-bio": "Ein Level-basiertes 2D-Jump'n'Run-Spiel, das auf der finnischen Moomin-Serie basiert, in der Moomintroll eine verlorene Freundin namens Serena finden muss. Mumintroll kann auf station\u00e4re und bewegliche Plattformen springen, um mit Charakteren \u00fcber das Verschwinden von Serena zu sprechen. Unterwegs kann er H\u00e4hnchenschenkel sammeln, um sie ihr zu geben, wenn er sie findet.",
+    "moomingame-more": "Das Spiel wurde mit der Unity-Game-Engine in 2D erstellt. Ich habe gelernt, C#-Skripte zu schreiben, Kollisionen zu handhaben, Animationen zu erstellen, Spielobjekte und Prefabs zu verwenden.",
+    "quicksong-bio": "Eine Musikwiedergabe-App, mit der Benutzer Musik offline und online abspielen k\u00f6nnen",
+    "quicksong-more": "Die Flutter-Benutzeroberfl\u00e4che verwaltete die Schnittstelle f\u00fcr den Benutzer, um sich anzumelden, Songs offline oder auf eine lokale Wiedergabeliste zu suchen und herunterzuladen. Der Login-Prozess holt das Salt anhand des Benutzernamens aus der Datenbank, f\u00fcgt es dem Passwort hinzu und verwendet eine einfache Hash-Funktion auf dem Client, die dann auf der Raspberry-Pi-MySQL-Datenbank \u00fcberpr\u00fcft wird. Die Song-URLs werden mit BeautifulSoup auf dem Django-Backend gekratzt und vom Client direkt von der Quelle heruntergeladen.",
+    "caplin-title": "Caplin-Systeme",
+    "caplin-bio": "Ich habe ein Praktikum bei Caplin Systems gemacht und daran gearbeitet, die Benutzeroberfl\u00e4che des alten Admin-Panels zu verbessern und es mit dem Backend zu verbinden.",
+    "caplin-more": "Ich habe React JS verwendet, um Komponenten zu erstellen, die zum Design des UI/UX-K\u00fcnstlers passen. Diese Komponenten wurden dann vom Code-Supervisor einem Peer-Review unterzogen und mit Storybook- und Jest-Skripten getestet."
+  },
+  "contact-me-via": "Kontaktieren Sie mich per",
+  "email": "Email"
+}

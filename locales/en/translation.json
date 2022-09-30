@@ -1,6 +1,6 @@
 {
   "title": "Hi, I'm John",
-  "about-me": "I'm an undergraduate studying Computer Science BSc at Durham University. I have 4 years of developing experience ranging from web to mobile and even to desktop.",
+  "about-me": "I'm a 2nd year Computer Science undergraduate at Durham University. I have 4 years of developing experience ranging from web to mobile and even to desktop.",
   "skills": "Skills",
   "more": "More",
   "less": "Less",
@@ -15,17 +15,21 @@
   "projects": "Projects",
   "project-items": {
     "northumberlandchess-title": "Northumberland Chess Association Website",
-    "northumberlandchess-bio": "A local chess association wanted me to redesign their site to attract more visitors to read about the chess news in the region",
-    "northumberlandchess-more": "I used React JS with Typescript on the client and I used Golang on the server to interact with the Google Drive API",
+    "northumberlandchess-bio": "The Northumberland Chess Association wanted me to redesign their site to attract more visitors to read about chess news in the region",
+    "northumberlandchess-more": "The client, written in React Typescript, requests the Golang server to interact with the Google Drive API to fetch the html files that contain the posts. The authentication starts by logging in with a Google account and then it's a JWT is sent from the server. This is refreshed every 15 mins to achieve a persistent session.",
     "leoallan-title": "Leo Allan Portfolio site",
-    "leoallan-bio": "A local photographer and videographer wanted a website to display all his artistic work",
-    "leoallan-more": "Same tech stack as Northumberland Chess Association website",
+    "leoallan-bio": "A Newcastle based photographer and videographer, Leo Allan, wanted a website to display all his artistic work",
+    "leoallan-more": "The React Typescript client sends requests to the Golang server to fetch the ids of the photos/videos via the Google Drive API. The authentication involves logging in via a Google login portal and then receiving a JWT to maintain a persistent session.",
     "moomingame-title": "Moomin Game",
-    "moomingame-bio": "A game based on the Finnish Moomin series where Moomintroll has to find a lost friend",
-    "moomingame-more": "The game was built using the Unity game engine in 2D. I learnt how to write C# scripts, handle collisions, make animations and use game objects.",
+    "moomingame-bio": "A 2D level-based platformer game based on the Finnish Moomin series where Moomintroll has to find a lost friend by the name of Serena. Moomintroll gets to jump on stationary and moving platforms to get to speak to characters about the disappearance of Serena. Along the way he can collect chicken legs to give to her when he finds her.",
+    "moomingame-more": "The game was built using the Unity game engine in 2D. I learnt how to write C# scripts, handle collisions, make animations, use game objects and prefabs.",
 
     "quicksong-bio": "A music playing app to allow users to play music offline and online",
-    "quicksong-more": "The app was made with Flutter on the mobile and the server ran Django to create recommendations and handle authentication."
+    "quicksong-more": "The Flutter UI managed the interface for the user to login, search and download songs offline or onto local playlist. The login process fetches the salt from the database according to the username, adds it to the password and uses a simple hash function on the client which is then checked on the Raspberry Pi MySQL database. The song URLs are scraped using BeautifulSoup on the Django backend and downloaded straight from the source by the client.",
+
+    "caplin-title": "Caplin Systems",
+    "caplin-bio": "I interned at Caplin Systems, working on improving the UI of the old Admin panel and connecting it to the backend.",
+    "caplin-more": "I used React JS to create components that fit with the design put forward by the UI/UX artist. These components were then peer reviewed by the code supervisor and tested with Storybook and Jest scripts."
   },
 
   "contact-me-via": "Contact me via",
